@@ -1,0 +1,128 @@
+#root{
+    --bg:#3a0ca3;
+    --about:#0d00a4;
+    /* --bg1:# */
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    /* border: 2px solid black; */
+    height: 100vh;
+}
+.main{
+    /* border: 2px solid red; */
+    display: flex;
+    height: 10vh;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.main .logo{
+      /* border: 2px solid green; */
+      width: 30vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.main .navbar{
+    /* border: 2px solid yellow; */
+    width: 70vw;
+    display: flex;
+    justify-content:space-around;
+    /* align-items: center; */
+}
+.home{
+    /* border: 2px solid red; */
+    height: 90vh;
+    display: flex;
+    background-color: var(--bg);
+
+}
+.home .name{
+    width: 50vw;
+    /* border: 2px solid green; */
+    margin: 150px 70px;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+}
+.home .image{
+    width: 50vw;
+    /* border: 2px solid yellow; */
+    
+}
+.home p{
+    margin-top: 20px;
+}
+.home button{
+    height: 29px;
+    width: 100px;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+.home .image img{
+    width: 50vw;
+    height: 90vh;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    background-color: var(--about);
+    color: white;
+}
+.about h1{
+    margin-bottom: 20px;
+}
+.register{
+    border: 2px solid white;
+    /* background-color: var(--about); */
+    display: flex;
+    flex-direction: column;
+    margin: 100px 350px;
+    height: 70vh;
+    width: 50vw;
+}
+.content{
+    /* border: 2px solid black; */
+    /* height: 20vh; */
+    display: flex;
+    justify-content: center;
+}
+.form{
+    /* border: 2px solid yellow; */
+    height: 60vh;
+    
+}
+.form input{
+    /* border: 2px solid green; */
+    margin: 0px 5px;
+    height: 7vh;
+    width: 49vw;
+    padding: 20px;
+    border-radius: 10px;
+}
+.container{
+    height: 250px;
+    border: 2px solid black;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* flex-direction: column; */
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.social-icons{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.social-icons a{
+      margin-right: 50px;
+}
